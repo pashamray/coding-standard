@@ -1,0 +1,33 @@
+{
+    "name": "pashamray/coding-standard",
+    "description": "Pashamray Coding Standard for PHP_CodeSniffer",
+    "version": "0.0.1",
+    "type": "phpcodesniffer-standard",
+    "license": "MIT",
+    "keywords": [
+        "phpcs",
+        "standards"
+    ],
+    "require": {
+        "php": ">=7.4",
+        "dealerdirect/phpcodesniffer-composer-installer": "*",
+        "squizlabs/php_codesniffer": "^3.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pashamray\\": "src/Standards/Pashamray"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavlo Shamrai",
+            "homepage": "https://pashamray.site/"
+        }
+    ],
+    "config": {
+        "lock": false,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

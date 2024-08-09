@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ruleset
+    name="PHPCS Coding Standards for pashamray/coding-standard"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd"
+>
+    <description>Check the code of the sniffs in pashamray/coding-standard.</description>
+
+    <arg name="basepath" value="."/>
+    <arg name="extensions" value="php"/>
+    <arg name="colors" />
+
+    <!-- Show progress of the run -->
+    <arg value="p"/>
+
+    <!--Show sniff codes in all reports -->
+    <arg value="s"/>
+
+    <rule ref="Pashamray"/>
+
+    <file>src/Standards</file>
+</ruleset>
